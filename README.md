@@ -12,7 +12,7 @@ The project will include a simple form where you enter the location you are trav
 
 * [Geonames API](http://www.geonames.org/export/web-services.html) - Geographical database from which the location data is pulled
 * [Weatherbit API](https://weatherbit.net/dev) - Weather API for current and future weather data
-* [Pixabay API](https://pixabay.com/api/docs/) - RESTful interface for searching and retrieving free images and videos
+* [Pixabay API](https://pixabay.com/api/docs/) - searching and retrieving free images and videos
 
 ## Additional Features
  Allowing the user to remove/delete the trip.
