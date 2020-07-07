@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App</title>
+</head>
+<body>  
+  <div id="container">
+    <div id="title">Travel planner app</div>
+    <form id="inputDetails">
+      <div class="details">
+        <label for="city">You are going to..</label>
+        <input type="text" id="city" placeholder="Enter Your city/country">
+      </div>
+      <div class="details">
+        <label for="dep">Departure date</label>
+        <input type="date" id="dep">
+      </div>
+      <div class="details">
+        <label for="ret">Returning date</label>
+        <input type="date" id="ret">
+      </div>
+      <!--<span class="trip_countdown"></span>-->
+      
+      <button type="submit" id="save"> save</button>  
+      <button type="submit" id="delete">delete </button>
+    </form>
+    <div id="add"></div>
+  </div>
+  <script>
+    // Check that service workers are supported
+    if ('serviceWorker' in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
+  </script>
+</body>
+</html>
