@@ -1,6 +1,6 @@
-# Udacity Front End Developer Nanodegree Capstone
+# Udacity Travel App Capstone
 
-My custom travel app helps you  to plan your trips. Simply enter the desired trip location and date.Travel App will display the current weather depending on the travel date and an image of the location using information obtained from external APIs.
+My travel app helps you to plan your trips. Simply enter the desired trip location and date.Travel App will display the current weather depending on the travel date and an image of the location using information obtained from external APIs.
 
 ## About the Project
 
